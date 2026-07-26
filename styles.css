@@ -429,6 +429,12 @@ section h2 {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.price-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 34px rgba(0, 0, 0, 0.35);
 }
 
 .price-card.popular {
