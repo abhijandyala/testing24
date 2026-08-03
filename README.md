@@ -1,6 +1,6 @@
-# TaskFlow — Demo Landing Page
+# TestTeam — Demo Landing Page
 
-A fake SaaS landing page for **TaskFlow**, a task management app. Built with plain HTML, CSS, and JavaScript — no build step required.
+A fake SaaS landing page for **TestTeam**, a task management app. Built with plain HTML, CSS, and JavaScript — no build step required.
 
 > This repo is a demo target for a tool that watches GitHub pushes and automatically detects & fixes bugs.
 
