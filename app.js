@@ -134,7 +134,7 @@ const amounts = document.querySelectorAll(".price .amount");
 billingSwitch.addEventListener("change", () => {
   const yearly = billingSwitch.checked;
   amounts.forEach((el) => {
-    const price = yearly ? el.dataset.yearly : el.dataset.monthly;
+    const price = yearly ? el.dataset.monthly : el.dataset.yearly;
     el.textContent = `$${price}`;
   });
 });
